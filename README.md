@@ -177,21 +177,15 @@ Pratikte genellikle en hızlı sıralama algoritmalarından biridir.
 
 📊 Algoritmaların Karşılaştırılması
 
-Algoritma	En İyi	Ortalama	En Kötü	Bellek Kullanımı
-
-Linear Search	O(1)	O(n)	O(n)	O(1)
-
-Binary Search	O(1)	O(log n)	O(log n)	O(1)
-
-Bubble Sort	O(n)	O(n²)	O(n²)	O(1)
-
-Selection Sort	O(n²)	O(n²)	O(n²)	O(1)
-
-Insertion Sort	O(n)	O(n²)	O(n²)	O(1)
-
-Merge Sort	O(n log n)	O(n log n)	O(n log n)	O(n)
-
-Quick Sort	O(n log n)	O(n log n)	O(n²)	O(log n)
+| Algoritma | En İyi Durum | Ortalama Durum | En Kötü Durum | Bellek Kullanımı |
+| :--- | :---: | :---: | :---: | :---: |
+| **Linear Search** | $O(1)$ | $O(n)$ | $O(n)$ | $O(1)$ |
+| **Binary Search** | $O(1)$ | $O(\log n)$ | $O(\log n)$ | $O(1)$ |
+| **Bubble Sort** | $O(n)$ | $O(n^2)$ | $O(n^2)$ | $O(1)$ |
+| **Selection Sort** | $O(n^2)$ | $O(n^2)$ | $O(n^2)$ | $O(1)$ |
+| **Insertion Sort** | $O(n)$ | $O(n^2)$ | $O(n^2)$ | $O(1)$ |
+| **Merge Sort** | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$ |
+| **Quick Sort** | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$ | $O(\log n)$ |
 
 🚀 Kod Nasıl Çalıştırılır?
 
