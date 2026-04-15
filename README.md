@@ -13,7 +13,7 @@ Projede 2 arama ve 5 sıralama algoritması **Python** dili kullanılarak sıfı
 
 ---
 
-###  ** Arama Algoritmaları**
+###  **Arama Algoritmaları**
 
 ### **1.1 Linear Search (Doğrusal Arama)**
 ** Çalışma Mantığı**
