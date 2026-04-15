@@ -16,7 +16,7 @@ Projede 2 arama ve 5 sıralama algoritması **Python** dili kullanılarak sıfı
 ###  **Arama Algoritmaları**
 
 ### **1.1 Linear Search (Doğrusal Arama)**
-** Çalışma Mantığı**
+**Çalışma Mantığı**
 * Listenin başından sonuna kadar tek tek kontrol eder.
 * Hedef değeri bulduğu anda işlemi durdurur.
 * Liste sıralı olmak zorunda değildir.
