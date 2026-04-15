@@ -22,7 +22,7 @@ Projede 2 arama ve 5 sıralama algoritması **Python** dili kullanılarak sıfı
 * Liste sıralı olmak zorunda değildir.
 * Basit ama büyük veri için yavaştır.
 
-** Zaman Karmaşıklığı**
+**Zaman Karmaşıklığı**
 | Durum | Karmaşıklık |
 | :--- | :--- |
 | **En iyi durum** | $O(1)$ |
@@ -32,14 +32,14 @@ Projede 2 arama ve 5 sıralama algoritması **Python** dili kullanılarak sıfı
 > En kötü durumda tüm elemanlar kontrol edilir.
 
 ### **1.2 Binary Search (İkili Arama)**
-** Çalışma Mantığı**
+**Çalışma Mantığı**
 * Sadece sıralı listelerde çalışır.
 * Listenin ortasını kontrol eder.
 * Hedef küçükse sol yarıya, büyükse sağ yarıya geçer.
 * Her adımda veri kümesini ikiye böler.
 * Bu nedenle çok daha hızlıdır.
 
-** Zaman Karmaşıklığı**
+**Zaman Karmaşıklığı**
 | Durum | Karmaşıklık |
 | :--- | :--- |
 | **En iyi durum** | $O(1)$ |
@@ -50,7 +50,7 @@ Projede 2 arama ve 5 sıralama algoritması **Python** dili kullanılarak sıfı
 
 ---
 
-##  ** Sıralama Algoritmaları**
+##  **Sıralama Algoritmaları**
 Projede aşağıdaki sıralama algoritmaları uygulanmıştır:
 * Bubble Sort
 * Selection Sort
@@ -59,55 +59,55 @@ Projede aşağıdaki sıralama algoritmaları uygulanmıştır:
 * Quick Sort
 
 ### **2.1 Bubble Sort**
-** Mantık**
+**Mantık**
 * Komşu elemanları karşılaştırır ve büyük olanı sona doğru taşır.
 * Her turda en büyük eleman listenin sonuna yerleşir.
 
-** Karmaşıklık**
+**Karmaşıklık**
 * **Ortalama:** $O(n^2)$
 * **En kötü:** $O(n^2)$
 * **En iyi (iyileştirilmiş versiyonda):** $O(n)$
 * *Yavaş ama öğretici bir algoritmadır.*
 
 ### **2.2 Selection Sort**
-** Mantık**
+**Mantık**
 * Her turda en küçük elemanı bulur ve başa yerleştirir.
 
-** Karmaşıklık**
+**Karmaşıklık**
 * **Tüm durumlar:** $O(n^2)$
 * *Karşılaştırma sayısı sabittir, ancak swap sayısı azdır.*
 
 ### **2.3 Insertion Sort**
-** Mantık**
+**Mantık**
 * Kart dizme mantığı ile çalışır.
 * Elemanları tek tek doğru pozisyona yerleştirir.
 
-** Karmaşıklık**
+**Karmaşıklık**
 * **En iyi:** $O(n)$ (liste zaten sıralıysa)
 * **Ortalama:** $O(n^2)$
 * **En kötü:** $O(n^2)$
 * *Küçük ve kısmen sıralı listelerde oldukça verimlidir.*
 
 ### **2.4 Merge Sort**
-** Mantık**
+**Mantık**
 * "Böl ve Fethet" (Divide and Conquer) yaklaşımı kullanır.
 * Listeyi ikiye böler.
 * Alt listeleri sıralar.
 * Sonra birleştirir.
 
-** Karmaşıklık**
+**Karmaşıklık**
 * **En iyi:** $O(n \log n)$
 * **Ortalama:** $O(n \log n)$
 * **En kötü:** $O(n \log n)$
 * *Ek bellek kullanır fakat performansı stabildir.*
 
 ### **2.5 Quick Sort**
-** Mantık**
+**Mantık**
 * Bir pivot seçer.
 * Küçükleri sola, büyükleri sağa koyar.
 * Alt listeleri recursive olarak sıralar.
 
-** Karmaşıklık**
+**Karmaşıklık**
 | Durum | Karmaşıklık |
 | :--- | :--- |
 | **En iyi** | $O(n \log n)$ |
@@ -134,11 +134,11 @@ Projede aşağıdaki sıralama algoritmaları uygulanmıştır:
 
 ##  **Kod Nasıl Çalıştırılır?**
 
-### ** Python yüklü olmalıdır**
+### **Python yüklü olmalıdır**
 Bilgisayarda Python 3 kurulu olmalıdır.
 Kontrol etmek için: `python --version` veya `python3 --version`
 
-### ** Dosyayı Çalıştırma**
+### **Dosyayı Çalıştırma**
 Terminal veya komut satırında proje klasörüne girip:
 `python arama_siralama.py` veya `python3 arama_siralama.py`
 komutunu çalıştırmanız yeterlidir.
