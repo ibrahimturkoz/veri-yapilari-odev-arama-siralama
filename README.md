@@ -116,6 +116,20 @@ Projede aşağıdaki sıralama algoritmaları uygulanmıştır:
 
 > Pratikte genellikle en hızlı sıralama algoritmalarından biridir.
 
+```python
+def quick_sort(liste):
+    if len(liste) <= 1:
+        return liste
+    pivot = liste[len(liste) // 2]
+    return (
+        quick_sort([x for x in liste if x < pivot]) +
+        [x for x in liste if x == pivot] +
+        quick_sort([x for x in liste if x > pivot])
+    )
+
+print(quick_sort([65, 9, 28, 49, 8, 92]))
+```
+
 ---
 
 ##  **Algoritmaların Karşılaştırılması**
