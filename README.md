@@ -1,6 +1,5 @@
 #  Veri Yapıları Ödevi – Arama ve Sıralama Algoritmaları
 
-
 ##  **Proje Hakkında**
 Bu proje, Veri Yapıları dersi kapsamında arama ve sıralama algoritmalarının hem teorik hem de pratik olarak anlaşılması amacıyla hazırlanmıştır.
 
