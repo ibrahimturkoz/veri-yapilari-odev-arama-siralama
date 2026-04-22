@@ -171,6 +171,7 @@ Bu proje sayesinde:
 
 ---
 
+
 ##  **Hazırlayan**
 
 **İbrahim Türköz**
